@@ -1,0 +1,298 @@
+{
+  "version": "local-default",
+  "groups": {
+    "G00": [
+      { "prize_id": "P01", "name": "五花肉兑换券", "desc": "美味五花肉", "weight": 6, "voiceoverNode": "winPorkBelly", "img_url": "assets/reward_item/P01.png", "png_url": "assets/showward/P01.png" },
+      { "prize_id": "P02", "name": "10元代金券", "desc": "下次消费立减¥10", "weight": 6, "voiceoverNode": "winCoupon10", "img_url": "assets/reward_item/P02.png", "png_url": "assets/showward/P02.png" },
+      { "prize_id": "P03", "name": "IP盲盒", "desc": "随机IP惊喜", "weight": 10, "voiceoverNode": "winBlindBox", "img_url": "assets/reward_item/P03.png", "png_url": "assets/showward/P03.png" },
+      { "prize_id": "P04", "name": "饮品买一送一", "desc": "指定饮品双倍快乐", "weight": 10, "voiceoverNode": "winBuyOneGetOne", "img_url": "assets/reward_item/P04.png", "png_url": "assets/showward/P04.png" },
+      { "prize_id": "P05", "name": "免排队1次", "desc": "VIP免排队特权", "weight": 0.5, "effectTier": "jackpot", "voiceoverNode": "winNoQueue", "img_url": "assets/reward_item/P11.png", "png_url": "assets/showward/P11.png" },
+      { "prize_id": "P06", "name": "韩国米汁", "desc": "甜香米汁", "weight": 15, "voiceoverNode": "winRicePunch", "img_url": "assets/reward_item/P14.png", "png_url": "assets/showward/P14.png" },
+      { "prize_id": "P07", "name": "鸭屎香柠檬茶", "desc": "清爽柠檬茶", "weight": 15, "voiceoverNode": "winLemonTea", "img_url": "assets/reward_item/P13.png", "png_url": "assets/showward/P13.png" },
+      { "prize_id": "P08", "name": "20元代金券", "desc": "下次消费立减¥20", "weight": 2, "voiceoverTier": "rare", "voiceoverNode": "winCoupon20", "img_url": "assets/reward_item/P07.png", "png_url": "assets/showward/P07.png" },
+      { "prize_id": "P09", "name": "牛肉兑换券", "desc": "美味牛肉", "weight": 3, "voiceoverTier": "rare", "voiceoverNode": "winBeef", "img_url": "assets/reward_item/P06.png", "png_url": "assets/showward/P06.png" },
+      { "prize_id": "P10", "name": "10元代金券", "desc": "下次消费立减¥10", "weight": 6, "voiceoverNode": "winCoupon10", "img_url": "assets/reward_item/P02.png", "png_url": "assets/showward/P02.png" },
+      { "prize_id": "P11", "name": "大可乐/大雪碧一瓶", "desc": "清凉解暑", "weight": 20, "voiceoverNode": "winSoda", "img_url": "assets/reward_item/P05.png", "png_url": "assets/showward/P05.png" },
+      { "prize_id": "P12", "name": "鸭屎香柠檬茶", "desc": "清爽柠檬茶", "weight": 15, "voiceoverNode": "winLemonTea", "img_url": "assets/reward_item/P10.png", "png_url": "assets/showward/P10.png" },
+      { "prize_id": "P13", "name": "韩国米汁", "desc": "甜香米汁", "weight": 15, "voiceoverNode": "winRicePunch", "img_url": "assets/reward_item/P09.png", "png_url": "assets/showward/P09.png" },
+      { "prize_id": "P14", "name": "再来一次", "desc": "神秘大奖等你开启", "weight": 6, "effectTier": "jackpot", "voiceoverNode": "winTryAgain", "img_url": "assets/reward_item/P08.png", "png_url": "assets/showward/P08.png", "type": "mystery", "isMystery": true },
+      { "prize_id": "P15", "name": "用餐88折", "desc": "用餐享88折优惠", "weight": 0.5, "effectTier": "jackpot", "voiceoverNode": "winDiscount88", "img_url": "assets/reward_item/P12.png", "png_url": "assets/showward/P12.png" },
+      { "prize_id": "P16", "name": "20元代金券", "desc": "下次消费立减¥20", "weight": 2, "voiceoverTier": "rare", "voiceoverNode": "winCoupon20", "img_url": "assets/reward_item/P07.png", "png_url": "assets/showward/P07.png" }
+    ]
+  },
+  "ui_config": {
+    "stage": {
+      "preset": "default",
+      "designWidth": 1920,
+      "designHeight": 1080,
+      "windowWidth": 1280,
+      "windowHeight": 720
+    },
+    "ui_settings": {
+      "iconSize": 220,
+      "bannerWidth": 1120,
+      "bannerHeight": 700,
+      "logoSize": 62
+    },
+    "layout": {
+      "slotCount": 16,
+      "topRowCount": 6,
+      "rightColumnCount": 2,
+      "bottomRowCount": 6,
+      "leftColumnCount": 2,
+      "layoutHorizontalPadding": 190,
+      "layoutVerticalPadding": 150,
+      "sideColumnInset": 210,
+      "topRowY": 160,
+      "bottomRowY": 930,
+      "leftColumnX": 240,
+      "rightColumnX": 1680,
+      "sideColumnTopY": 420,
+      "sideColumnBottomY": 660,
+      "bannerCenterX": 0.5,
+      "bannerCenterY": 0.5
+    },
+    "modal": {
+      "autoCloseCountdown": 5,
+      "particleCount": {
+        "particleRain": 300,
+        "particleExplosion": 100,
+        "twinklingStars": 50,
+        "imageSparkles": 30,
+        "backgroundParticles": 20
+      }
+    },
+    "resources": {
+      "logo": {
+        "default": "./assets/logo1.gif"
+      },
+      "banner": {
+        "default": "./assets/BABNNER.png"
+      }
+    },
+    "effects": {
+      "particleIntensity": "medium"
+    },
+    "sounds": {
+      "loop": {
+        "default": "assets/sounds/loop/1.mp3",
+        "mystery": "assets/sounds/loop/8.wav"
+      },
+      "reward": {
+        "default": "assets/sounds/reward/1.mp3",
+        "mystery": "assets/sounds/reward/3.mp3"
+      },
+      "background": {
+        "mode": "random",
+        "selected": "assets/sounds/BJ/1.mp3",
+        "default": "assets/sounds/BJ/1.mp3",
+        "playlist": [
+          "assets/sounds/BJ/1.mp3",
+          "assets/sounds/BJ/2.mp3",
+          "assets/sounds/BJ/3.mp3",
+          "assets/sounds/BJ/4.mp3",
+          "assets/sounds/BJ/5.mp3",
+          "assets/sounds/BJ/6.mp3",
+          "assets/sounds/BJ/7.mp3",
+          "assets/sounds/BJ/8.mp3",
+          "assets/sounds/BJ/9.mp3",
+          "assets/sounds/BJ/10.mp3"
+        ]
+      },
+      "mystery_round": {
+        "start": "assets/sounds/reward/1.mp3",
+        "loop": "assets/sounds/loop/8.wav",
+        "win": "assets/sounds/reward/3.mp3"
+      },
+      "voiceover": {
+        "enabled": true,
+        "volume": 1,
+        "idleDelayMs": 30000,
+        "nodes": {
+          "welcome": {
+            "strategy": "random",
+            "pickCount": { "min": 1, "max": 1 },
+            "clips": [
+              "assets/sounds/peiyin/嘿，新朋友！我是YOYO，你的幸运搭档。准备好⼀起捕捉.mp3",
+              "assets/sounds/peiyin/안녕!我是你的伙伴YOYO，准备好⼀起迎接惊喜了.mp3"
+            ]
+          },
+          "start": {
+            "strategy": "random",
+            "pickCount": { "min": 1, "max": 1 },
+            "clips": [
+              "assets/sounds/peiyin/哇！要开始了吗？好紧张好紧张！.mp3",
+              "assets/sounds/peiyin/Y-O-Y-O，幸运快降落~.mp3",
+              "assets/sounds/peiyin/奖品们，我来啦！哒哒哒~.mp3",
+              "assets/sounds/peiyin/이번엔 진짜다! (这次是真的了) 看 YOYO 的！.mp3",
+              "assets/sounds/peiyin/转转转…会是哪个呢？哪个呢？.mp3",
+              "assets/sounds/peiyin/快点快点，我等不及啦…빨리빨리! (快点).mp3",
+              "assets/sounds/peiyin/我有预感，是个大家伙。.mp3",
+              "assets/sounds/peiyin/哼哼~能量加载！Power up！！.mp3",
+              "assets/sounds/peiyin/转得 YOYO 头晕晕的…但素好刺激！.mp3",
+              "assets/sounds/peiyin/快了快了！맞아요（没错）马上就要开奖了！.mp3",
+              "assets/sounds/peiyin/와아앙…（哇昂…）YOYO 已经准备好尖叫了！.mp3",
+              "assets/sounds/peiyin/这个转转转得 YOYO 都变成小陀螺啦~.mp3",
+              "assets/sounds/peiyin/会是什么呢？米汁？五花肉？还是….mp3",
+              "assets/sounds/peiyin/再转一圈…再转一圈…求求了给个好运气吧！행운아, 와줘～（好运啊，来吧～）.mp3",
+              "assets/sounds/peiyin/Spin spin spin～ Which one will it be？.mp3",
+              "assets/sounds/peiyin/Hurry up, hurry up～ I can't wait anymore！.mp3",
+              "assets/sounds/peiyin/I have a feeling… it's gonna be something BIG！.mp3",
+              "assets/sounds/peiyin/Hmm hmm~ Power loading！Charging up！.mp3",
+              "assets/sounds/peiyin/Almost there！The prize is coming！.mp3",
+              "assets/sounds/peiyin/Whoa～ YOYO is ready to scream！Ahhh～.mp3",
+              "assets/sounds/peiyin/One more spin… just one more～ Please give me good luck！.mp3",
+              "assets/sounds/peiyin/빙글빙글～ 어떤 거? 어떤 거예요? (转转转～ 是哪个? 哪个呢？).mp3",
+              "assets/sounds/peiyin/빨리빨리! 더 이상 못 기다려요～ (快点快点！我再也等不及啦～).mp3",
+              "assets/sounds/peiyin/느낌이 와요… 분명 큰 거예요! (我有感觉了…肯定是个大的！).mp3",
+              "assets/sounds/peiyin/흥흥~ 에너지 충전 완료! (哼哼~ 能量充电完成！).mp3",
+              "assets/sounds/peiyin/거의 다 왔어요! 맞아요～ 곧 발표돼요! (快到了！没错～ 马上就开奖了！).mp3",
+              "assets/sounds/peiyin/와아앙～ YOYO 소리 지를 준비 됐어요! (哇昂～ YOYO 准备好尖叫了！).mp3",
+              "assets/sounds/peiyin/한 번만 더… 한 번만 더～ 제발 행운을 주세요! (再一次…再一次～ 求求给我好运吧！).mp3"
+            ]
+          },
+          "countdown": {
+            "strategy": "random",
+            "pickCount": { "min": 1, "max": 1 },
+            "leadTimeMs": 3800,
+            "clips": [
+              "assets/sounds/peiyin/어머어머(哦莫哦莫)……要停了要停了！.mp3",
+              "assets/sounds/peiyin/拜托拜托，给我好吃的…哦不，是好运！.mp3",
+              "assets/sounds/peiyin/왔다!就是它了！看我选中你啦！.mp3",
+              "assets/sounds/peiyin/5,4,3,2,1…행운도착!.MP3"
+            ]
+          },
+          "regularWin": {
+            "strategy": "random",
+            "pickCount": { "min": 1, "max": 1 },
+            "clips": []
+          },
+          "rareWin": {
+            "strategy": "random",
+            "pickCount": { "min": 1, "max": 1 },
+            "clips": []
+          },
+          "jackpotWin": {
+            "strategy": "fixed",
+            "pickCount": { "min": 1, "max": 1 },
+            "clips": []
+          },
+          "winSoda": {
+            "strategy": "random",
+            "pickCount": { "min": 1, "max": 1 },
+            "clips": [
+              "assets/sounds/peiyin/아싸！（太好了！）中了肥宅快乐水～YOYO 的小猪鼻子都闻到甜味了！.mp3",
+              "assets/sounds/peiyin/Wow～中了肥宅快乐水！YOYO我现在就去冰箱里帮你拿～ 시원해!（透心凉！）.mp3",
+              "assets/sounds/peiyin/耶，太棒啦！我们一起来分享肥宅快乐水吧！.mp3",
+              "assets/sounds/peiyin/Happy water get！Let's share～.mp3",
+              "assets/sounds/peiyin/탄산 폭발!（碳酸爆炸！）YOYO 的快乐也跟着冒泡泡啦～Bubble bubble～.mp3",
+              "assets/sounds/peiyin/Coke or Sprite？다 좋아!（都喜欢！）YOYO 的小肚子已经准备好接住它啦～.mp3"
+            ]
+          },
+          "winRicePunch": {
+            "strategy": "random",
+            "pickCount": { "min": 1, "max": 1 },
+            "clips": [
+              "assets/sounds/peiyin/대박!（太棒了！）中了韩国米汁～甜甜的米香，我已经流口水啦～！ yummy～.mp3",
+              "assets/sounds/peiyin/韩国米汁！韩国米汁！YOYO 喝过超多次，甜甜稠稠超好喝！.mp3",
+              "assets/sounds/peiyin/噗噜噗噜～是韩国米汁！恭喜我自己！사랑해～（撒浪嘿～）.mp3",
+              "assets/sounds/peiyin/哎呀呀～是传说中的韩国米汁！막걸리 한 잔, 행복 한 가득!（一杯米酒，满满幸福！）.mp3"
+            ]
+          },
+          "winBuyOneGetOne": {
+            "strategy": "random",
+            "pickCount": { "min": 1, "max": 1 },
+            "clips": [
+              "assets/sounds/peiyin/어머！（天哪！）饮品买一送一！赚到啦！.mp3",
+              "assets/sounds/peiyin/하나 둘 셋… (一 二 三) 饮品买一送一！小收获也是收获，YOYO 很满意！.mp3",
+              "assets/sounds/peiyin/买一送一！알겠어요.（ 我知道了）今天是YOYO请客～.mp3",
+              "assets/sounds/peiyin/一杯变两杯！마법이야!（这是魔法呀！）.mp3",
+              "assets/sounds/peiyin/买一送一 get！개이득!（赚翻了！）今天的运气已经赢在起跑线啦～Win win～.mp3"
+            ]
+          },
+          "winLemonTea": {
+            "strategy": "random",
+            "pickCount": { "min": 1, "max": 1 },
+            "clips": [
+              "assets/sounds/peiyin/鸭屎香柠檬茶！YOYO 的最爱，맛있어요!（好喝！）.mp3",
+              "assets/sounds/peiyin/고마워（谢谢）！是鸭屎香柠檬茶～YOYO现在就开始制作，Shake shake shake～.mp3",
+              "assets/sounds/peiyin/真不错，是柠檬茶～好运气要慢慢钓上来，像钓鱼一样。Nice～.mp3",
+              "assets/sounds/peiyin/Shake shake～鸭屎香的名字怪怪的，但是味道……진짜 맛있어!（真的好喝！）.mp3"
+            ]
+          },
+          "winBlindBox": {
+            "strategy": "random",
+            "pickCount": { "min": 1, "max": 1 },
+            "clips": [
+              "assets/sounds/peiyin/Surprise～是盲盒！会开出什么小宝贝呢？.mp3",
+              "assets/sounds/peiyin/꺄아！IP盲盒！会是什么小可爱呢？.mp3",
+              "assets/sounds/peiyin/상자 안에 뭐가 있을까（盒子里有什么呢？）拆盲盒的瞬间最心动～.mp3"
+            ]
+          },
+          "winCoupon10": {
+            "strategy": "random",
+            "pickCount": { "min": 1, "max": 1 },
+            "clips": [
+              "assets/sounds/peiyin/행운 도착! (幸运抵达) 中了10块！开心！.mp3",
+              "assets/sounds/peiyin/哈哈！是10元代金券～值得一个小庆祝！今晚加餐！Party time！.mp3"
+            ]
+          },
+          "winTryAgain": {
+            "strategy": "random",
+            "pickCount": { "min": 1, "max": 1 },
+            "clips": [
+              "assets/sounds/peiyin/再来一次！ 파이팅!（加油！）.mp3",
+              "assets/sounds/peiyin/어머어머 (哦莫哦莫)……再来一次….mp3"
+            ]
+          },
+          "winCoupon20": {
+            "strategy": "random",
+            "pickCount": { "min": 1, "max": 1 },
+            "clips": [
+              "assets/sounds/peiyin/哇啊啊啊！是20元代金券！我真是个幸运的小天才猪！.mp3",
+              "assets/sounds/peiyin/대~박! (大~发)， 20元代金券！够我开心一整天啦~.mp3"
+            ]
+          },
+          "winBeef": {
+            "strategy": "random",
+            "pickCount": { "min": 1, "max": 1 },
+            "clips": [
+              "assets/sounds/peiyin/可以兑换一份牛肉！幸福来得太突然，我要转圈圈啦~ 빙글빙글～（转啊转～）.mp3",
+              "assets/sounds/peiyin/怎么样，是牛肉！YOYO 没给你丢脸吧？我说过会抽中的！.mp3"
+            ]
+          },
+          "winPorkBelly": {
+            "strategy": "random",
+            "pickCount": { "min": 1, "max": 1 },
+            "clips": [
+              "assets/sounds/peiyin/五花肉！五花肉！滋滋作响的五花肉，완전 좋아요！（超级喜欢！）.mp3",
+              "assets/sounds/peiyin/是五花肉！小猪猪在此宣布，今天我是幸运之神！！.mp3"
+            ]
+          },
+          "winNoQueue": {
+            "strategy": "fixed",
+            "pickCount": { "min": 1, "max": 1 },
+            "clips": [
+              "assets/sounds/peiyin/아이고…(哎一古) 妈妈我出息了！我抽到免排队特等奖啦！！.mp3"
+            ]
+          },
+          "winDiscount88": {
+            "strategy": "fixed",
+            "pickCount": { "min": 1, "max": 1 },
+            "clips": [
+              "assets/sounds/peiyin/진짜 (真的？) 我不是在做梦吧？八八折！！대박 사건!!! (大发事件)YOYO 사랑해～（YOYO 爱你～）.mp3"
+            ]
+          },
+          "idle": {
+            "strategy": "random",
+            "pickCount": { "min": 1, "max": 1 },
+            "clips": [
+              "assets/sounds/peiyin/唔…玩累了吗？那我先打个盹⼉，你随时叫我哦。.MP3",
+              "assets/sounds/peiyin/昨晚梦⻅我们抽中了宇宙⼤奖，醒来发现枕头湿了⸺⸺是⼝.mp3"
+            ]
+          }
+        }
+      }
+    }
+  }
+}
