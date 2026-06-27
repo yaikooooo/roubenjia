@@ -2422,7 +2422,7 @@ const Draw = {
       const prizeId = typeof targetPrize.prize_id === 'string' ? targetPrize.prize_id.trim().toUpperCase() : '';
 
       return [
-        prizeId ? `assets/showward/${prizeId}.png` : ''
+        prizeId ? `assets/print/${prizeId}.png` : ''
       ].filter(Boolean);
     },
 
